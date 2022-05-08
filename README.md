@@ -26,10 +26,10 @@ The purpose of this analysis is to predict if charitable organizations will be s
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
     This model is made up of two hidden layers with 100 and 30 neurons and each layer activated by reLU.  The Output layer activation is sigmoid.  To compile the model, the loss function that was used is binary crossentropy and the optimizer was adam.  
+    
   - Were you able to achieve the target model performance?
 
     No.  None of my models achieved greater than 75% accuracy.  
-    
     
   - What steps did you take to try and increase model performance?
 
@@ -43,6 +43,10 @@ The purpose of this analysis is to predict if charitable organizations will be s
 
     The third attempt I kept the three hidden layers but changed the activation from reLU to tanh.
     
-        ![third test](https://user-images.githubusercontent.com/95720986/167314395-18d45f6a-aece-4f94-ad12-9700796fb505.png)
+       ![third test](https://user-images.githubusercontent.com/95720986/167314395-18d45f6a-aece-4f94-ad12-9700796fb505.png)
 
 ## Summary
+
+This deep learning model did not perform to expectations and was not able to achieve 75% accuracy.
+
+I would recommend trying a supervised learning model to see if Random Forest Classifier and decison trees could help in evaluating whether a loan would be successful or not.  
